@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/test', function () {
-    return "Test page";
+    return view('test');
 });
 
 Auth::routes();
