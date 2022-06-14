@@ -25,3 +25,5 @@ mix.scripts([
     'node_modules/admin-lte/plugins/datatables-responsive/js/responsive.bootstrap4.min.js',
 
 ], 'public/js/all.min.js');
+
+mix.copy('node_modules/admin-lte/dist/img','public/dist/img');
