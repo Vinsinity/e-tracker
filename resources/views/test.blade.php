@@ -15,7 +15,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 {{--    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">--}}
 {{--    <!-- Theme style -->--}}
 {{--    <link rel="stylesheet" href="dist/css/adminlte.min.css">--}}
-    <script src="{{ asset('js/app.js') }}"></script>
     <link rel="stylesheet" href="{{ asset('css/app.css')  }}">
 </head>
 <body class="hold-transition sidebar-mini">
@@ -345,7 +344,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
-    <script src="{{ asset('js/all.min.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/all.min.js') }}"></script>
 {{--<!-- jQuery -->--}}
 {{--<script src="plugins/jquery/jquery.min.js"></script>--}}
 {{--<!-- Bootstrap 4 -->--}}
